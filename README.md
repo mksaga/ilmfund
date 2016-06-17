@@ -1,0 +1,1 @@
+Bismillah! Trying out using Rails for the [Ilm Fund](http://www.ilmfund.org) site to integrate Stripe and other goodies.

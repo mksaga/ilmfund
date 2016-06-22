@@ -11,7 +11,7 @@ html {
 body {
   padding-top: 60px;
   margin-bottom: 60px;
-  background-image: url(/assets/pinstripe.png);
+  background-image: url(/assets/hex-pattern.png);
   //background-color: gray;
 }
 
@@ -42,6 +42,7 @@ h1 {
   //letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  color: white;
 }
 
 h2 {
@@ -50,7 +51,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: dark-gray;
+  color: white;
 }
 
 p {
@@ -84,10 +85,12 @@ footer {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: #f5f5f5;
+  //background-color: #f5f5f5;
   padding-left: 30px;
   padding-right: 30px;
 }
+
+
 
 footer a {
   color: #555;
@@ -109,4 +112,12 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+}
+
+/* custom jumbotron stuff */
+
+.jumbotron {
+  opacity: 1; // Leave this as 1
+  background-color: rgba(0,0,0,0); // This is in the form rgba(R,G,B,a) where a is your opacity
+  // The rest of your CSS
 }

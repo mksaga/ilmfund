@@ -1,12 +1,16 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
+<header class="navbar navbar-fixed-top navbar-default">
   <div class="container">
-    <%= link_to "ilm fund", root_path, id: "logo" %>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",   '#' %></li>
+    <%= link_to image_tag("logo_orangesmall.jpg", alt: "Ilm Fund"),
+            root_path %>
+    <%#= link_to "ilm fund", root_path, id: "logo" %>
+    <nav class="pull-right">
+      <ul class="nav nav-pills nav-nav red">
+        <li><%= link_to "Home",   root_path %></li>
         <li><%= link_to "About",   about_path %></li>
         <li><%= link_to "Donate", '#' %></li>
       </ul>
     </nav>
   </div>
 </header>
+
+ 

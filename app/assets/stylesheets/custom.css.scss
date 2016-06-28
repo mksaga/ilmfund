@@ -70,12 +70,59 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
 }
 
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
+/* navbar */
+.navbar-default {
+    background-color: #003300;
+    //border-color: #E7E7E7;
 }
+/* title */
+.navbar-brand {
+    color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+
+.nav-nav {
+  padding-top: 4px;
+}
+
+.red .active a,
+.red .active a:hover {
+  background-color: red;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: red;
+}
+
 
 /* footer */
 
@@ -120,4 +167,11 @@ footer ul li {
   opacity: 1; // Leave this as 1
   background-color: rgba(0,0,0,0); // This is in the form rgba(R,G,B,a) where a is your opacity
   // The rest of your CSS
+}
+
+.my-btn {
+  width: 1000px;
+  height: 1000px;
+  background-color: green;
+  border-radius: 100%;
 }

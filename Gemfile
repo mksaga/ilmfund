@@ -4,9 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
 
-group :production do
-  gem 'pg',   '0.18.4'
-end
+gem 'pg',   '0.18.4'
+
 
 gem 'puma'
 # Use SCSS for stylesheets
